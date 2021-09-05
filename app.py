@@ -64,8 +64,4 @@ if st.button('Predict Air Temperature'):
     st.success("The predicted air temperature is " + str((model.predict(query))))
     
     
-    if st.button("About Author"):
-        st.text("Name : Upendra Kumar")
-        st.text("Email : upendra.kumar48762@gmail.com") 
-        st.text("Oragnization : Data Science Intern at ineuron.ai")
-     
+    
